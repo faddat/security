@@ -1,6 +1,6 @@
 # Security
 
-This security document outlines the Coordinated Vulnerability Disclosure Policy that the Cosmos team follows regarding security issues 
+This security document outlines the Coordinated Responsible Vulnerability Disclosure Policy that the Cosmos team follows regarding security issues 
 that can impact partners and users of the Cosmos technology, including
 Cosmos-based zones and the Cosmos Hub itself.
 
@@ -26,7 +26,7 @@ However, in such cases, resolutions and mitigation strategies may still be eligi
 
 ## Reporting a Bug
 
-As part of our Coordinated Vulnerability Disclosure
+As part of our Coordinated Responsible Vulnerability Disclosure
 Policy, we operate a [bug bounty](https://hackerone.com/cosmos) on HackerOne.
 Please see the bug bounty page for more details on submissions and rewards, and see "Example Vulnerabilities" 
 in the respective SECURITY.md files of all repositories in scope for examples of the kinds of bugs we're most interested in.
@@ -52,8 +52,8 @@ Cosmos uses the following disclosure process:
 1. Once a security report is received, the Cosmos team works to verify the issue and confirm its severity level.
 2. A Security Incident team is formed that collaborates with other core Cosmos teams as necessary to determine the vulnerability’s potential impact on users, zones, and the Cosmos Hub.
 3. Patches are prepared for eligible releases of the software in private repositories. See “Supported Releases” in the SECURITY.md file of each relevant repository for more information on which releases are considered eligible.
-4. If it is determined that a CVE-ID is required, we request a CVE through Github.
-5. We provide the community with a 24 hour notice that a security release is impending, giving partners time to prepare their systems for the update. Notifications can include Discord, Telegram, Twitter, forum posts, and emails, including emails sent to the [Cosmos Security Mailing List](TODO).
+4. Depending on the severity of the vulnerability, we request a CVE through Github for publication and tracking.
+5. We provide the community with a notice that, based on the severity of the vulnerability, a security release is impending, giving partners time to prepare their systems for the update. Notifications can include Discord, Telegram, Twitter, forum posts, and emails, including emails sent to the [Cosmos Security Mailing List](TODO).
 6. 24 hours following this notification, the fixes are applied publicly and new releases are issued.
 7. Once new security releases are available, we notify the community, through the same channels as above. <!-- We also publish a Security Advisory on Github and publish the CVE, as long as neither the Security Advisory nor the CVE include any information on how to exploit these vulnerabilities beyond what information is already available in the patch itself. -->
 8. Once the community is notified, we will pay out any relevant bug bounties to submitters.
@@ -92,7 +92,7 @@ The following is an example timeline for the triage and response. The required r
 #### 24+ Hours Before Release Time
 
 1. Request CVE number (ADMIN)
-1. Gather emails and other contact info for validators (COMMS LEAD)
+1. Gather contact information for impacted stakeholders (COMMS LEAD)
 1. Create patches in a private security repo, and ensure that PRs are open targeting all relevant release branches (TENDERMINT ENG, TENDERMINT LEAD)
 1. Test fixes on a testnet  (GAIA ENG, TENDERMINT ENG, COSMOS SDK ENG)
 1. Write “Security Advisory” for forum (GAIA LEAD)
@@ -101,7 +101,7 @@ The following is an example timeline for the triage and response. The required r
 
 1. Post “Security Advisory” pre-notification on forum (GAIA LEAD)
 1. Announce security advisory/link to post in various other social channels (Telegram, Discord) (COMMS LEAD)
-1. Send emails to validators or other users (PARTNERSHIPS LEAD)
+1. Send communications to stakeholders (PARTNERSHIPS LEAD)
 
 #### Release Time
 
