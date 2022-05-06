@@ -21,7 +21,7 @@ all repositories. Please see the SECURITY.md files in each repository for any ad
 
 ## Prerequisites
 
-If a vulnerability and its exploit are both publicly known, the security process may not apply. 
+If a vulnerability and its exploit are both publicly known, the security process may not apply. Regardless, an impact assessment will be performed to validate the impact and probabily, exploitation in the wild is a serious concern and will be addressed accordingly.
 However, in such cases, resolutions and mitigation strategies may still be eligible for rewards through a bounty program.
 
 ## Reporting a Bug
@@ -74,6 +74,9 @@ Communications will include the following details:
 An example notice looks like:
 
 ```
+'SUBJECT': Security Advisory | Vulnerability/Threat | Fix Incoming
+
+
 Dear Cosmos Hub Validators,
 
 A critical security vulnerability has been identified in Gaia v4.0.x. 
@@ -92,32 +95,32 @@ The following is an example timeline for the triage and response. The required r
 #### 24+ Hours Before Release Time
 
 1. Request CVE number (ADMIN)
-1. Gather contact information for impacted stakeholders (COMMS LEAD)
-1. Create patches in a private security repo, and ensure that PRs are open targeting all relevant release branches (TENDERMINT ENG, TENDERMINT LEAD)
-1. Test fixes on a testnet  (GAIA ENG, TENDERMINT ENG, COSMOS SDK ENG)
-1. Write “Security Advisory” for forum (GAIA LEAD)
+1. Gather contact information for impacted stakeholders 
+1. Create patches in a private security repo, and ensure that PRs are open targeting all relevant release branches 
+1. Test fixes on a testnet  
+1. Write “Security Advisory” for forum 
 
 #### 24 Hours Before Release Time
 
-1. Post “Security Advisory” pre-notification on forum (GAIA LEAD)
-1. Announce security advisory/link to post in various other social channels (Telegram, Discord) (COMMS LEAD)
-1. Send communications to stakeholders (PARTNERSHIPS LEAD)
+1. Post “Security Advisory” pre-notification on forum 
+1. Announce security advisory/link to post in various other social channels (Telegram, Discord)
+1. Send communications to stakeholders 
 
 #### Release Time
 
-1. Cut software releases for eligible versions of all affected software (TENDERMINT ENG)
-1. Post “Security releases” on forum (GAIA LEAD)
-1. Remind everyone via social channels (Telegram, Discord)  that the release is out (COMMS LEAD)
-1. Send emails to validators or other users (COMMS LEAD)
-1. Publish Security Advisory and CVE, if CVE has no sensitive information (ADMIN)
+1. Cut software releases for eligible versions of all affected software 
+1. Post “Security releases” on forum
+1. Remind everyone via social channels (Telegram, Discord)  that the release is out 
+1. Send emails to validators or other users 
+1. Publish Security Advisory and CVE, if CVE has no sensitive information
 
 #### After Release Time
 
-1. Write forum post with exploit details (GAIA LEAD)
-2. Approve pay-out on HackerOne for submitter (ADMIN)
+1. Write forum post with exploit details 
+2. Approve pay-out on HackerOne for submitter 
 
 #### 7 Days After Release Time
 
-1. Publish CVE if it has not yet been published (ADMIN)
-2. Publish forum post with exploit details (GAIA ENG, GAIA LEAD)
+1. Publish CVE if it has not yet been published 
+2. Publish forum post with exploit details 
 
