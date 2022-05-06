@@ -74,7 +74,7 @@ Communications will include the following details:
 An example notice looks like:
 
 ```
-'SUBJECT': Security Advisory | Vulnerability/Threat | Fix Incoming
+'SUBJECT': Security Advisory | Gaia | Critical Impact | Fix Incoming
 
 
 Dear Cosmos Hub Validators,
