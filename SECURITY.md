@@ -90,7 +90,7 @@ If the chain halts, validators with sufficient voting power need to upgrade and 
 
 ### Example Timeline
 
-The following is an example timeline for the triage and response. The required roles and team members are described in parentheses after each task; however, multiple people can play each role and each person may play multiple roles.
+The following is an example timeline for the triage and response of a tier 1, critical vulnerability. Vulnerabilities and their subsequent response timelines will vary on a number of criteria, which will be assessed upon discovery and actioned accordingly, the below is a timeline specific to the most extreme case.
 
 #### 24+ Hours Before Release Time
 
