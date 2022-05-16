@@ -21,7 +21,7 @@ all repositories. Please see the SECURITY.md files in each repository for any ad
 
 ## Prerequisites
 
-If a vulnerability and its exploit are both publicly known, the security process may not apply. Regardless, an impact assessment will be performed to validate the impact and probabily, exploitation in the wild is a serious concern and will be addressed accordingly.
+If a vulnerability and its exploit are both publicly known, the security process may not apply. Regardless, an impact assessment will be performed to validate the impact and probability, exploitation in the wild is a serious concern and will be addressed accordingly.
 However, in such cases, resolutions and mitigation strategies may still be eligible for rewards through a bounty program.
 
 ## Reporting a Bug
