@@ -94,11 +94,12 @@ The following is an example timeline for the triage and response of a tier 1, cr
 
 #### 24+ Hours Before Release Time
 
-1. Request CVE number (ADMIN)
-1. Gather contact information for impacted stakeholders 
-1. Create patches in a private security repo, and ensure that PRs are open targeting all relevant release branches 
-1. Test fixes on a testnet  
-1. Write “Security Advisory” for forum 
+1. Replicate Vulnerability - Confirm viability of impact
+2. Request CVE number 
+3. Gather contact information for impacted stakeholders 
+4. Create patches in a private security repo, create repo specific advisory and link to CVE, and ensure that PRs are open targeting all relevant release branches 
+5. Test fixes on a testnet  
+6. Write “Security Advisory” for forum 
 
 #### 24 Hours Before Release Time
 
