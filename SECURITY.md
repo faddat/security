@@ -92,33 +92,34 @@ If the chain halts, validators with sufficient voting power need to upgrade and 
 
 The following is an example timeline for the triage and response of a tier 1, critical vulnerability. Vulnerabilities and their subsequent response timelines will vary on a number of criteria, which will be assessed upon discovery and actioned accordingly, the below is a timeline specific to the most extreme case.
 
-#### 24+ Hours Before Release Time
+#### Vulnerability Detected: 120 - 24 Hours from Remediation
 
-1. Replicate Vulnerability - Confirm viability of impact
-2. Request CVE number 
-3. Gather contact information for impacted stakeholders 
-4. Create patches in a private security repo, create repo specific advisory and link to CVE, and ensure that PRs are open targeting all relevant release branches 
-5. Test fixes on a testnet  
-6. Write “Security Advisory” for forum 
+1. Assess Vulnerability - Impact Assessment
+2. Assess Vulnerability - Technical Implementation 
+3. Create patches in a private security repo, create repo specific advisory and link to CVE, and ensure that PRs are open targeting all relevant release branches 
+4. Replicate Vulnerability - Validate Viability 
 
-#### 24 Hours Before Release Time
 
-1. Post “Security Advisory” pre-notification on forum 
-1. Announce security advisory/link to post in various other social channels (Telegram, Discord)
-1. Send communications to stakeholders 
+#### Viable Vulnerability Action: 72 - 24 Hours from Remediation
+
+1. Notify stakeholders that a vulnerability is present, and being actioned
+2. Test patches on testnet
+3. Confirm production viability for mainnet release
+4. Notify stakeholders of impending release/change
 
 #### Release Time
 
 1. Cut software releases for eligible versions of all affected software 
-1. Post “Security releases” on forum
-1. Remind everyone via social channels (Telegram, Discord)  that the release is out 
-1. Send emails to validators or other users 
+2. Post “Security releases” on forum
+3. Open communications via social channels (Telegram, Discord, Reddit, Forum)  that the release is out 
+1. Send notification to validators or other users 
 1. Publish Security Advisory and CVE, if CVE has no sensitive information
 
 #### After Release Time
 
 1. Write forum post with exploit details 
-2. Approve pay-out on HackerOne for submitter 
+2. Approve pay-out on HackerOne for submitter
+ 
 
 #### 7 Days After Release Time
 
